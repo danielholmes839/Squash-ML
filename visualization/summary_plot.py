@@ -22,8 +22,6 @@ def shap_summary_plot(features, label):
     explainer = shap.TreeExplainer(model)
     shap_values = explainer.shap_values(X_test)
     shap.summary_plot(shap_values, X_test, show=False)
-    plt.figure(figsize=(12, 12))
     plt.savefig(f'visualization/summary_plot_{label}.png', )
     plt.clf()
-
 
