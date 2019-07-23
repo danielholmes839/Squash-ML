@@ -10,14 +10,13 @@ I trained my model using 15,000 games played in Ottawa with wide variety of stat
 
 High dimensional data of wins/losses visualization by TSNE:
 
-![TSNE visualization of wins and losses ](/visualization/TSNE_graph_outcome.png){:height="50%" width="50%"}
+![TSNE visualization of wins and losses ](/visualization/TSNE_graph_outcome.png)
 
 
 # Features
 SHapley Additive exPlanations (SHAP) summary plot visualizes feature importance
 
-![Feature Importance](/visualization/summary_plot_outcome.png){:height="50%" width="50%"}
-
+![Feature Importance](/visualization/summary_plot_outcome.png)
 I've tried many features including:
 - Rating
 - Win streak
